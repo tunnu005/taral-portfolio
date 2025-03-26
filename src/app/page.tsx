@@ -1,8 +1,8 @@
 "use client"
-import Loading from "@/Elements/loading";
+
 import Main from "@/Elements/Main";
 import Navbar from "@/Elements/Navbar";
-import { useEffect, useState } from "react";
+import { useEffect, } from "react";
 import "./styles.css"
 import Skills from "@/Elements/skills";
 import Project from "@/Elements/Project";

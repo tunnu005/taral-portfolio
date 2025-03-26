@@ -2,9 +2,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi"; // Menu icons
-import {  Animation1, Animation2 } from "@/animations/Anime1";
+import {  Animation1 } from "@/animations/Anime1";
 
-const Navbar:React.FC<{scroll:any}> =({scroll})=> {
+type ScrollFunction = (id: string) => void;
+
+const Navbar:React.FC<{scroll:ScrollFunction}> =({scroll})=> {
   const [menuOpen, setMenuOpen] = useState(false);
 
   Animation1()
@@ -12,14 +14,14 @@ const Navbar:React.FC<{scroll:any}> =({scroll})=> {
     <>
       {/* 🌟 Main Navbar with Glassmorphism & Inner Shadow */}
       <nav
-        className={`top-0 left-0 w-full px-6 py-3 flex justify-between items-center z-50 transition-all duration-300 fahkwang 
+        className={`top-0 left-0 w-full px-6 py-3 flex justify-between items-center  transition-all duration-300 fahkwang 
         bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg rounded-b-lg 
         before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[10px] before:bg-white/20 before:blur-lg  navbar z-50`}
       >
         {/* 🌟 Logo */}
         <div className="text-3xl font-extrabold tracking-wide transform transition-transform duration-300 hover:scale-105 nav-items">
           <Link href="/" className="text-gray-300">
-            Taral's <span className={`text-white modern`}>Dev</span>
+            Taral&apos;s <span className={`text-white modern`}>Dev</span>
           </Link>
         </div>
 
@@ -59,7 +61,7 @@ const Navbar:React.FC<{scroll:any}> =({scroll})=> {
               onClick={()=>{scroll(item)}}
             >
               {item}
-              
+
             </div>
           ))}
         </div>
