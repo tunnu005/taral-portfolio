@@ -32,7 +32,7 @@ const Skills = () => {
                     skills.map((sk)=>(
                         <div key={sk.name} className="md:p-4 p-2 border border-gray-200 bg-gray-950 rounded-lg shadow-md">
                             <h3 className="text-base text-white text-center md:text-xl font-bold md:h-40 h-28 flex justify-center items-center bg-black rounded-md">{sk.name}</h3>
-                            <p className="mt-4 text-[12px] md:text-base text-gray-500">{sk.description}</p>
+                            <p className="mt-4 text-[12px] md:text-base text-gray-400">{sk.description}</p>
                         </div>
                     ))
                 }
