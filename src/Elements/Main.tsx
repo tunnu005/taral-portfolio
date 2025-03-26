@@ -2,13 +2,13 @@ import React from 'react';
 
 const Main = () => {
   const aboutMe = [
-    "Hey, I'm Taral Patel from Valsad, Gujarat! 🚀",
-    "Completed my Bachelor's in Computer Science & Engineering from SVNIT 🎓",
-    "Passionate about Web Development, AI, and building cool tech stuff! 💻",
+    "Hey, I'm Taral Patel from Valsad, Gujarat!",
+    "Completed my Bachelor's in Computer Science & Engineering from SVNIT",
+    "Passionate about Web Development, AI, and building cool tech stuff!",
     "Currently working on projects in Next.js, Tailwind, and node.js",
-    "Love photography 📸, video editing 🎥, and exploring new tech trends! ✨",
-    "Big fan of aesthetics, Glassmorphism, and minimal design! 🎨",
-    "On a journey to grow, learn, and build the future! 🌍🚀",
+    "Love photography, video editing, and exploring new tech trends!",
+    "Big fan of aesthetics, Glassmorphism, and minimal design!",
+    "On a journey to grow, learn, and build the future! ",
   ];
 
   return (
@@ -19,12 +19,12 @@ const Main = () => {
         <div className="text-center md:text-left">
           <h1 className="text-2xl md:text-5xl font-extrabold leading-tight animate-gradient">
             <span className="bg-gradient-to-r from-gray-400 via-blue-200 to-cyan-300 text-transparent bg-clip-text">
-              You are entering...
+            Crafting Excellence,
             </span>
           </h1>
           <h2 className="text-2xl md:text-5xl font-extrabold leading-tight mt-2 animate-gradient">
             <span className="bg-gradient-to-r from-cyan-400 via-blue-200 to-gray-400 text-transparent bg-clip-text">
-              Into the Cool Zone Now!
+            One Project at a Time!
             </span>
           </h2>
         </div>
