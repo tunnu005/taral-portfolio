@@ -1,0 +1,176 @@
+@font-face {
+    font-family: GreatVibes;
+    src: url('./GreatVibes-Regular.ttf');
+    
+   
+  }
+  @font-face {
+    font-family: Glowbloomper;
+    src: url('./GlowbloompersonaluseItalic-RpzjA.otf');
+    
+   
+  }
+ 
+  @font-face {
+    font-family: Angle;
+    src: url('./AngelDemoRegular-p7GaR.otf');
+    
+   
+  }
+  
+  @font-face {
+    font-family: Katerlin;
+    src: url('./Katerlin-51zjB.ttf');
+    
+   
+  }
+  
+  @font-face {
+    font-family: Geraldine;
+    src: url('./GeraldinePersonalUseItalic-PK12m.ttf');
+    
+   
+  }
+  
+  @font-face {
+    font-family: Loveline;
+    src: url('./LovelineGlamour-owdE0.ttf');
+    
+   
+  }
+  
+  @font-face {
+    font-family: lucy;
+    src: url('./LucySaidOkPersonalUseItalic-OV9ee.ttf');
+    
+   
+  }
+
+  @font-face {
+    font-family: Wedding;
+    src: url('./WeddingdayPersonalUseRegular-1Gvo0.ttf');
+  }
+
+  @font-face {
+    font-family: LovelyHome;
+    src: url('./LovelyHome-9aBZ.ttf');
+  }
+  
+  @font-face {
+    font-family: SuperCharged;
+    src: url('./SuperchargeGradient-51oqZ.otf');
+  }
+
+  @font-face {
+    font-family: Fast;
+    src: url('./Run-6YeWA.ttf');
+  }
+
+  @font-face {
+    font-family: playfull;
+    src: url('./Freakshow-067d.ttf');
+  }
+
+  @font-face {
+    font-family: cute;
+    src: url('./DarlingtonDemo-z8xjG.ttf');
+  }
+
+  @font-face {
+    font-family: blury;
+    src: url('./ScoreboardTypeItalicPersonal-nRWO0.ttf');
+  }
+  
+  @font-face{
+    font-family: painted-text;
+    src: url('./Paint-JpZDE.ttf');
+  }
+
+  @font-face{
+    font-family: modern;
+    src: url('./RusillaSerifLight-vmx97.otf');
+  }
+
+  @font-face{
+    font-family: fantastic;
+    src: url('./NoticaSerif-Yqql8.ttf');
+  }
+
+
+  @font-face {
+    font-family: beautifully-delicious;
+    src: url('./FontsFree-Net-BeautifullyDelicious.ttf');
+  }
+
+
+  @font-face {
+    font-family: fahkwang;
+    src: url('./Fahkwang-ExtraLight.ttf');
+  }
+
+  @font-face {
+    font-family: NewIconScript;
+    src: url('./New_Icon_Script.ttf');
+  }
+  .font{
+    font-family: Lucy;
+  }
+  .font1{
+    font-family: GreatVibes;
+  }
+  .font2{
+    font-family: Geraldine;
+  }
+  .font3{
+    font-family: Angle;
+  }
+
+  .weddingfont{
+    font-family: Wedding;
+  }
+
+  
+
+  .Supercharge1{
+    font-family: SuperCharged;
+  }
+
+  .fastfont{
+    font-family: Fast;
+  }
+
+  .playful{
+    font-family: playfull;
+  }
+
+  .cute{
+    font-family: cute;
+  }
+
+  .blury{
+    font-family: blury;
+  }
+
+  .painted-text{
+    font-family: painted-text;
+  }
+
+  .modern{
+    font-family: modern;
+  }
+
+  .fantastic{
+    font-family: fantastic;
+  }
+  
+  .beautifully-delicious{
+    font-family: beautifully-delicious;
+  }
+
+  .fahkwang{
+    font-family: fahkwang;
+  }
+
+  .NewIconScript{
+    font-family: NewIconScript;
+  }
